@@ -127,6 +127,7 @@ p{
   color: var(--alt-bg);
   border-radius: 2px;
   padding: 10px;
+  margin-top: 30px;
 }
 .hero .container {
   display: flex;
@@ -137,9 +138,6 @@ p{
 .hero .container .info h1{
   font-size: 50px;
   color: var(--title-color);
-}
-.hero .container .info a {
-  margin-top: 50px;
 }
 .hero .container .info a:last-child{
   height: 38px;
@@ -165,7 +163,7 @@ h3{
   padding-top: 10px;
 }
 .powerful .container {
-  padding-top: 60px;
+  padding-top: 190px;
 }
 .powerful .container .icons{
   display: flex;
