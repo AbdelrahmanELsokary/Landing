@@ -155,3 +155,20 @@ p{
   top: 0;
   z-index: -1;
 }
+h2{
+  font-size: 36px;
+  color: var(--title-color);
+}
+h3{
+  font-size: 19px;
+  color: var(--title-color);
+  padding-top: 10px;
+}
+.powerful .container {
+  padding-top: 60px;
+}
+.powerful .container .icons{
+  display: flex;
+  gap: 30px;
+  padding-top: 70px;
+}
