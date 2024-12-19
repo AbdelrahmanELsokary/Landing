@@ -91,6 +91,9 @@ header .container nav input{
   header .container nav ul li{
     padding: 10px;
   }
+  .hero .container .image img {
+    display: none;
+  }
 }
 @media (min-width:992px) {
   header .container nav label , input{
@@ -100,4 +103,55 @@ header .container nav input{
     display: flex;
     gap: 30px;
   }
+}
+.d_flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+img{
+  max-width: 100%;
+}
+p{
+  line-height: 1.3;
+  color: var(--title-color2);
+  padding-top: 15px;
+}
+.btn{
+  display: inline-block;
+  text-align: center;
+  width: 180px;
+  height: 38px;
+  background-color: var(--title-color);
+  color: var(--alt-bg);
+  border-radius: 2px;
+  padding: 10px;
+}
+.hero .container {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+  padding-left: 30px;
+}
+.hero .container .info h1{
+  font-size: 50px;
+  color: var(--title-color);
+}
+.hero .container .info a {
+  margin-top: 50px;
+}
+.hero .container .info a:last-child{
+  height: 38px;
+  border: 2px solid var(--title-color);
+  background-color: var(--white);
+  color: var(--title-color);
+  margin-left: 20px;
+}
+.hero .container .image img{
+  position: absolute;
+  height: 100%;
+  right: 0;
+  top: 0;
+  z-index: -1;
 }
