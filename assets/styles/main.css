@@ -213,6 +213,7 @@ footer .container .landing .logo{
   font-size: 35px;
   font-weight: 600;
   color: var(--title-color2);
+  margin: auto;
 }
 footer .container .contact ul{
   display: flex;
